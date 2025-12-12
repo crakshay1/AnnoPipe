@@ -1,0 +1,68 @@
+# This output was generated with AUGUSTUS (version 3.5.0).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth, Katharina Hoff, Henry Mehlan and Daniel Honsel.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# wheat version. Using default transition matrix.
+# Looks like region7_masked.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 15001, name = region7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+region7	AUGUSTUS	gene	1305	4122	0.14	+	.	g1
+region7	AUGUSTUS	transcript	1305	4122	0.14	+	.	g1.t1
+region7	AUGUSTUS	exon	1305	1346	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+region7	AUGUSTUS	start_codon	1329	1331	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+region7	AUGUSTUS	intron	1347	1486	0.76	+	.	transcript_id "g1.t1"; gene_id "g1";
+region7	AUGUSTUS	CDS	1329	1346	0.66	+	0	transcript_id "g1.t1"; gene_id "g1";
+region7	AUGUSTUS	CDS	1487	3676	0.84	+	0	transcript_id "g1.t1"; gene_id "g1";
+region7	AUGUSTUS	exon	1487	4122	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+region7	AUGUSTUS	stop_codon	3674	3676	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+region7	AUGUSTUS	tts	4122	4122	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MEAPDQENPCAICLGGMAAGGGQATFTAECSHTFHFNCISASVAHGHLVCPLCNARWRELPFLRPTAPVPQPPTLPRL
+# GRPVPMHGVQPPSEPTASPPLMHGGMPPFPAQAPPPPRGHIMQHHQPPPPNVHVVQHHQPPPPVHTVQHHQPPPPEPTVVFDDDEQVEPASRPPADST
+# PAAASNGAVVVNTHAEYSAVARDSSSDNFAVLVHVKAPAMADTVAAGSDKPPPRAPLDLVTVLDVSGSMSGHKLALLKQAMRFVIDNLGPNDRLSVVS
+# FSSEARRLTRLTRMSDAGKALAVSAVESLAARGXXXXXXXXXXXXXXXXXXXXXXXXXXXXLLSDGQDTYTMMRRRGPSGVQANNYEELVPPSFARTG
+# ADGEWSAPIHTFGFGNDHDAAAMHVIAEATGGTFSFIENEAVIQDAFAQCIGGLLSVVVQEARIAVACVHPGVRVVSVKSGRYESRVDEDGCAASVRV
+# GELYADEERRFLLFLTVPRVEATDGDTTALARVVFSYRNAASGAEVSVTAEDTVVARPEHAPSASERSVEVERERVRVEAAEDIAAARAAAERGEHQE
+# AVEILDNRQRALEQSEAAGDGDPMIVALGAELQEMRGRVSNRQSYMRSGRAYMLAGMSAHQQQRATSRQMLEPEEQQTSMMARNSGVRRMIRRGVGSS
+# GGGYMAAAAPVAEASNEATMSYATPAMRAMLLRSREARGASAEQGQQEEQQPMAGKDDAGSSGPKDVNQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+region7	AUGUSTUS	gene	6774	7765	0.09	-	.	g2
+region7	AUGUSTUS	transcript	6774	7765	0.09	-	.	g2.t1
+region7	AUGUSTUS	tts	6774	6774	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+region7	AUGUSTUS	exon	6774	7765	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+region7	AUGUSTUS	stop_codon	7155	7157	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+region7	AUGUSTUS	CDS	7155	7421	0.92	-	0	transcript_id "g2.t1"; gene_id "g2";
+region7	AUGUSTUS	start_codon	7419	7421	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+region7	AUGUSTUS	tss	7765	7765	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGYFPAPRGDLRSFHPAPLGGRGRMLEAKEAAAARDAAAAAHLPALREEYQVASTLSDTLIYHTLHGNEPPPCNGDSD
+# DNNDSARSSC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# augustus --species=wheat region7_masked.fasta
